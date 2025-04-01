@@ -6,11 +6,8 @@ function App() {
  
   return (
     <>
-     <Post />
-     <Post />
-     <Post />
-     <Post />
-     <Post />
+     <Post author="John" body="Reactjs! is awesome!" />
+     <Post author="Jane" body="Reactjs! is awesome!" />
     </>
   )
 }
